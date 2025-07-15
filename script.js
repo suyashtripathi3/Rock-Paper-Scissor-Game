@@ -27,7 +27,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
     // console.log("You Win");
     userScore++;
     userScorePara.innerText = userScore;
-    msg.innerText = `ongratulations!, You Win your ${userChoice} beats ${compChoice}`;
+    msg.innerText = `Congratulations!, You Win your ${userChoice} beats ${compChoice}`;
     let audio = new Audio("winner.mp3");
     audio.play();
     msg.style.backgroundColor = "green";
